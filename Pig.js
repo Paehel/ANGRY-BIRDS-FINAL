@@ -21,6 +21,10 @@ class Pig extends BaseClass {
    
  }
 
-
+    count(){
+    if(this.Visiblity < 0 && this.Visiblity > -1005) {
+      count = count + 1;
+    }
+}
 
 };
